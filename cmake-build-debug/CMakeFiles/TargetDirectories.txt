@@ -1,0 +1,9 @@
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/CMakeFiles/test.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/CMakeFiles/run_unit_tests.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/CMakeFiles/test.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/CMakeFiles/rebuild_cache.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/CMakeFiles/edit_cache.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/CMakeFiles/gtest_main.dir
+/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/CMakeFiles/gtest.dir

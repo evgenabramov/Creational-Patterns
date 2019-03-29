@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UnitCreation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest-framework\;CMake Files\googletest-framework\googletest\;CMake Files\googletest-framework\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_unit_tests">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/run_unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_unit_tests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_unit_tests/fast">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/run_unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_unit_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/include"/>
+					<Add directory="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/evgenabramov/CLionProjects/UnitCreation/cmake-build-debug/googletest-framework/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Archer/Archer.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Archer/Archer.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Factories/ArmyFactory.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Factories/HumanFactory.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Factories/HumanFactory.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Factories/OrcFactory.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Factories/OrcFactory.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Healer/Healer.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Healer/Healer.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Hero/Hero.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Hero/Hero.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/Director.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/Director.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/HeroBuilder.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/HeroBuilder.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/HumanHeroBuilder.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/HumanHeroBuilder.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/OrcHeroBuilder.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/HeroBuilders/OrcHeroBuilder.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Horseman/Horseman.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Horseman/Horseman.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Infantry/Infantry.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Infantry/Infantry.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Position/Position.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Position/Position.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Warrior/Warrior.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/Warrior/Warrior.h">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/main.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/testing/test.cpp">
+			<Option target="run_unit_tests"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-framework\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/evgenabramov/CLionProjects/UnitCreation/googletest-framework/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-framework\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
